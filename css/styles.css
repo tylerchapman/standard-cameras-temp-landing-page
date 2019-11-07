@@ -1,0 +1,58 @@
+body {
+  background: url("../assets/images/IMG_0663.jpg") no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+#logo {
+  height: 125px;
+}
+
+.alignment-container {
+  min-height: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  max-width: 600px;
+  background-color: rgba(255,255,255,0.85);
+  font-family: 'Work Sans', sans-serif;
+}
+
+#countdown {
+  font-size: 2rem;
+}
+
+.kickstarter-text {
+  font-size: 1.3rem;
+}
+
+.time-labels {
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+  #countdown {
+    font-size: 1.6rem;
+  }
+
+  .time-labels {
+    font-size: .8rem;
+  }
+
+  .kickstarter-text {
+    font-size: 1.1rem;
+  }
+
+  #site-title {
+    font-size: 2.2rem;
+  }
+
+  #coming-soon {
+    font-size: 1.2rem;
+  }
+}
